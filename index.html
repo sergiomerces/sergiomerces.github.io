@@ -6,53 +6,87 @@
     <meta name="author" content="Sérgio da Costa Mercês">
     <meta name="description" content="Portfolio com linguagens, tecnologias e projetos de atividades acadêmicas e pessoais">
     <meta name="keyword" content="algoritmos; linguagem C; front-end; backend; curriculo; HTML; CSS; JavaScript; CSharp; C#; Git; GitHub">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+    <link rel="javascript" tupe="text/javascript" href="bootstrap/js/bootstrap.js">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
     <title>Sérgio Mercês - Developer Front-End/Backend</title>
 </head>
 
-<body>
-    <nav>
-        <ul>
-            <li><a href="#bio">Bio</a></li>
-            <li><a href="#midias">Mídias Sociais</a></li>
-            <li><a href="portfolio">Porfolio</a></li>
-            <li><a href="comunidades">Comunidades</a></li>
-            <li><a href="#artigos">Artigos</a></li>
-            <li><a href="#contato">contato</a></li>
-        </ul>
-    </nav>
+<body>    
 
-    <header>        
-        <h1>Sérgio Mercês</h1>
-        <div><img src="img/banner.jpg" width="100%"></div>
-        <p>Página de portfolio com linguagens, tecnologias e projetos de atividades acadêmicas 
-            e pessoais.</p>
+    <nav class="container-fluid navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="https://sergiomerces.github.io">Sérgio Mercês</a>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#bio">Bio<span class="sr-only">(Página atual)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#midias">Mídias Sociais</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Porfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#comunidades">Comunidades</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#artigos">Artigos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contato">Contato</a>
+            </li>
+          </ul>          
+        </div>
+      </nav>
+
+    <header>                
+        <div class="capa">
+            <img src="img/banner.jpg" class="img_capa">        
+            <p class="text-monospace">Página de portfolio com linguagens, tecnologias e projetos de atividades acadêmicas e pessoais.</p>
+        </div>
     </header>        
 
     <section id="bio">
         <h2>Bio</h2>
-        <div><img src="img/foto_bio.jpg" width="250px"></div>
-        <p>Tenho 40 anos, casado, pai de três filhos. Graduando em Gestão da Tecnologia da 
-            Informação pela Fatec "Dom Amaury Castanho" (Itu - SP), residente na cidade de 
-            Salto - SP, onde trabalho como servidor público municipal no Serviço de 
-            Abastecimento de Água e Esgoto (SAAE), na função de agente administrativo.
-        </p>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="img/foto_bio.jpg" class="img_bio rounded-circle">
+                </div>
+                <div class="col-lg-8 p_vertical">
+                    <p class="text-monospace">Tenho 40 anos, casado, pai de três filhos. Graduando em Gestão da Tecnologia da 
+                    Informação pela Fatec "Dom Amaury Castanho" (Itu - SP), residente na cidade de 
+                    Salto - SP, onde trabalho como servidor público municipal no Serviço de 
+                    A bastecimento de Água e Esgoto (SAAE), na função de agente administrativo.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="midias">
         <h2>Mídias Sociais</h2>
-        <div>
-            <img src="img/github.png" width="50px">
-            <p>GitHub</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 div_midias">
+                    <a href="https://github.com/sergiomerces/" target="_blank"><img src="img/github.png" class="img_midias"></a>
+                    <p class="text-monospace p_midias">GitHub</p>                            
+                </div>
+                <div class="col-lg-4 div_midias">                    
+                    <a href="https://www.linkedin.com/in/sergiomerces/" target="_blank"><img src="img/linkedin.png" class="img_midias"></a>
+                    <p class="text-monospace p_midias">LinkedIn<p>                    
+                </div>
+                <div class="col-lg-4 div_midias">
+                    <a href="https://twitter.com/sergio_merces"><img src="img/twitter.png" class="img_midias"></a>
+                    <p class="text-monospace p_midias">Twitter</p>
+                </div>
+            </div>
         </div>
-        <div>
-            <img src="img/linkedin.png" width="50px">
-            <p>LinkedIn</p>
-        </div>
-        <div>
-            <img src="img/twitter.png" width="50px">
-            <p>Twitter</p>
-        </div>        
+               
     </section>
 
     <section id="portfolio">
@@ -63,7 +97,7 @@
         <h2>Comunidades</h2>
         <div>
             <a href="http://www.fatecitu.edu.br">
-                <img src="img/fatec_itu.jpeg" width="300px" target="_blank"></a>
+                <img src="img/fatec_itu.jpeg" target="_blank" class="img_comunidades"></a>
         </div>
     </section>
 
@@ -73,23 +107,27 @@
 
     <section id="contato">
         <h2>Contato</h2>
-        <div>
-            <img src="img/celular2.png" width="32px">
-            <p>Celular: <a href="tel:+5511975351691">+55 (11) 97536-1691</a></p>            
-        </div>
-        <div>
-            <img src="img/email.png" width="32px">
-            <p>E-Mail: <a href="mailto:sergio.merces@gmail.com" target="_blank">
-                sergio.merces@gmail.com</a></p>            
-        </div>
-        <div>
-            <img src="img/telegram.png" width="32px">
-            <p>Telegram: <a href="https://t.me/sergiomerces" target="_blank">@sergiomerces</a></p>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 div_contato">
+                    <img src="img/celular2.png" class="img_contato">
+                    <p class="text-monospace p_contato">Celular: <a href="tel:+5511975351691">+55 (11) 97536-1691</a></p>            
+                </div>
+                <div class="col-lg-4 div_contato">
+                    <img src="img/email.png" class="img_contato">
+                    <p class="text-monospace p_contato">E-Mail: <a href="mailto:sergio.merces@gmail.com" target="_blank">
+                        sergio.merces@gmail.com</a></p>            
+                </div>
+                <div class="col-lg-4 div_contato">
+                    <img src="img/telegram.png" class="img_contato">
+                    <p class="text-monospace p_contato">Telegram: <a href="https://t.me/sergiomerces" target="_blank">@sergiomerces</a></p>
+                </div>
+            </div>
         </div>
     </section>
 
     <footer>
-        <p>Desenvolvido por Sérgio da Costa Mercês</p>
+        <p class="text-monospace p_footer">Desenvolvido por Sérgio da Costa Mercês</p>
     </footer>    
 </body>
 </html>
