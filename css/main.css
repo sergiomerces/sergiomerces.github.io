@@ -18,6 +18,12 @@ main{
     position: relative;
 }
 
+nav{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
 .logo{
     float:left;
     padding: 16px;
@@ -41,8 +47,7 @@ main{
 }
 
 .header2{
-    background-color:rgb(206, 206, 206);    
-    width: 100%;
+    background-color:rgb(206, 206, 206);        
     height: 32px;   
     border-bottom: 1px solid black;
     margin-top: 67px;
@@ -58,20 +63,50 @@ main{
 }
 
 a{
+    font-weight: normal;
+    color: black;
+    text-decoration: rgb(0, 0, 0);
+    text-decoration-line: none;
+}
+
+a:visited{
+    font-weight: normal;
+    color: purple;
+    text-decoration: rgb(0, 0, 0);
+    text-decoration-line: none;
+}
+
+a:hover{
+    font-weight: normal;
+    color: blue;
     text-decoration: rgb(0, 0, 0);
     text-decoration-line: none;
 }
 
 .busca{
-      
+    margin-left: 80px;  
 }
 
 .div_capa{
+    margin-top: 55px; 
     width: 100%;
 }
 
 .capa{
-    margin-top: 25px; 
     width: 100%;
     height: auto;   
+}
+
+footer{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+footer a{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
 }
