@@ -66,6 +66,10 @@ a{
       
 }
 
+.div_capa{
+    width: 100%;
+}
+
 .capa{
     margin-top: 25px; 
     width: 100%;
