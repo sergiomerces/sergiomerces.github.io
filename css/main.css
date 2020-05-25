@@ -42,24 +42,25 @@ nav{
 }
 
 .midias_sociais{
-    width: 22%;
+    width: 23%;
     float:right;       
 }
 
 .header2{
+    vertical-align: auto;
     background-color:rgb(206, 206, 206);        
     height: 32px;   
     border-bottom: 1px solid black;
-    margin-top: 67px;
+    margin-top: 67px; 
 }
 
 .menu ul li{
     display: inline-block;     
     list-style: none;     
-    margin-left: 5px;
-    padding-top: 8px;
+    margin-left: 5px;    
     font-size: 15px;
-    text-align: center;   
+    text-align: center; 
+    padding-top: 5px;
 }
 
 a{
@@ -84,7 +85,11 @@ a:hover{
 }
 
 .busca{
-    margin-left: 80px;  
+    height: auto;
+    font-size: 15px;
+    margin-left: 60px; 
+    border-color: gray;   
+    border-style: solid;     
 }
 
 .div_capa{
@@ -92,7 +97,7 @@ a:hover{
     width: 100%;
 }
 
-.capa{
+.capa{    
     width: 100%;
     height: auto;   
 }
