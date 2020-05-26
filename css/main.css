@@ -4,7 +4,8 @@ body{
     height:100%;
     background-color: white;
     font-family: monospace;
-    font-size: 1rem;    
+    font-size: 1rem; 
+    color: black;   
 }
 
 .menu_principal{
@@ -34,16 +35,17 @@ nav{
     width: 28px;    
 }
 
+.midias_sociais{
+    width: 25%;
+    float:right; 
+    margin-left: 20px;      
+}
+
 .midias_sociais ul li{
     display: inline-block;    
     list-style: none;
     margin-top: 20px;  
     margin-left: 10px;
-}
-
-.midias_sociais{
-    width: 23%;
-    float:right;       
 }
 
 .header2{
@@ -60,46 +62,50 @@ nav{
     margin-left: 5px;    
     font-size: 15px;
     text-align: center; 
-    padding-top: 5px;
+    padding-top: 5px;    
 }
 
-a{
-    font-weight: normal;
-    color: black;
-    text-decoration: rgb(0, 0, 0);
-    text-decoration-line: none;
+.menu ul li a{
+    font-weight: normal; 
+    color: black;   
+    text-decoration: black;    
 }
 
-a:visited{
-    font-weight: normal;
-    color: purple;
-    text-decoration: rgb(0, 0, 0);
-    text-decoration-line: none;
-}
-
-a:hover{
-    font-weight: normal;
+.menu ul li a:hover{
+    font-weight: bolder;
     color: blue;
-    text-decoration: rgb(0, 0, 0);
-    text-decoration-line: none;
+    text-decoration-color: blue;        
+    font-weight: bolder;
+    border-bottom: 3px solid blue;
+}
+
+.menu ul li a:visited{
+    font-weight: normal;
+    color:black;
+    text-decoration:black;
+    
 }
 
 .busca{
     height: auto;
     font-size: 15px;
     margin-left: 60px; 
-    border-color: gray;   
-    border-style: solid;     
+    border: 1px solid gray;   
 }
 
 .div_capa{
-    margin-top: 55px; 
-    width: 100%;
+    margin-top: 40px; 
+    width: 100%;  
 }
 
 .capa{    
-    width: 100%;
-    height: auto;   
+    width: 100%;     
+}
+
+input{
+    background-image: url(../img/search2.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 footer{
