@@ -9,7 +9,7 @@ body{
 }
 
 .container{
-    max-width: 100%;
+    max-width: 1024px;
     margin-top: 10px;
     
 }
@@ -43,4 +43,12 @@ body{
 
 .capa{
     width: 100%
+}
+
+footer{
+    font-size: 1rem;
+    font-weight: bold;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
 }
