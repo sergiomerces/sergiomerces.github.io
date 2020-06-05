@@ -89,7 +89,7 @@ nav{
 .busca{
     height: auto;
     font-size: 15px;
-    margin-left: 60px; 
+    margin-left: 0px; 
     border: 1px solid gray;   
 }
 
@@ -110,14 +110,41 @@ input{
 
 footer{
     text-align: center;
-    font-size: 14px;
+    font-size: small;
     font-weight: bold;
-    font-style: italic;
+    font-style: normal;
 }
 
 footer a{
     text-align: center;
-    font-size: 14px;
+    font-size: small;
     font-weight: bold;
-    font-style: italic;
+    font-style: none;
+    text-decoration: none;
+}
+
+/*curriculo.html*/
+
+.foto_cv{
+    display: flexbox;
+    float: left;  
+    position: relative;  
+    margin-top: 50px;
+    margin-right: 100px;
+    width: 50%;
+}
+
+.foto_cv img {
+    width: 300px;
+    align-content: left;
+}
+
+.nome_cv{
+    display: flexbox;
+    float: right; 
+    position: relative; 
+}
+
+.nome_cv h2 h3{
+    text-align: center;
 }
