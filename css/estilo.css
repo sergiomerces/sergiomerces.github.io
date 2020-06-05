@@ -9,8 +9,8 @@ body{
 }
 
 .container{
-    max-width: 1024px;
-    margin-top: 20px;
+    max-width: 100%;
+    margin-top: 10px;
     
 }
 
@@ -31,11 +31,16 @@ body{
 }
 
 .form_pesquisa{
-    margin-left: 30px ;
+    padding-left: 17px ;
+    font-size: 1rem;
 }
 
 .bar_pesquisa{
     background-image: url(../img/search2.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.capa{
+    width: 100%
 }
