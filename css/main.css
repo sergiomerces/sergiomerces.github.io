@@ -8,143 +8,47 @@ body{
     color: black;   
 }
 
-.menu_principal{
-    width: 100%;   
-    height: 62px;
-}
-
-main{
-    margin: 0 auto;
-    width: 980px;
-    position: relative;
-}
-
-nav{
-    margin: 0 auto;
-    width: 980px;
-    position: relative;
+.container{
+    max-width: 1024px;
+    margin-top: 10px;
+    
 }
 
 .logo{
     float:left;
-    padding: 16px;
-    width: 20%;
+       
+}
+
+.midias ul li{
+    display: inline-block;    
+    list-style: none;
+    float: right;    
+    margin-left: 15px;
 }
 
 .icone{
     width: 28px;    
 }
 
-.midias_sociais{
-    width: 25%;
-    float:right; 
-    margin-left: 20px;      
+.form_pesquisa{
+    padding-left: 17px ;
+    font-size: 1rem;
 }
 
-.midias_sociais ul li{
-    display: inline-block;    
-    list-style: none;
-    margin-top: 20px;  
-    margin-left: 10px;
-}
-
-.header2{
-    vertical-align: auto;
-    background-color:rgb(206, 206, 206);        
-    height: 32px;   
-    border-bottom: 1px solid black;
-    margin-top: 67px; 
-}
-
-.menu ul li{
-    display: inline-block;     
-    list-style: none;     
-    margin-left: 5px;    
-    font-size: 15px;
-    text-align: center; 
-    padding-top: 5px;    
-}
-
-.menu ul li a{
-    font-weight: normal; 
-    color: black;   
-    text-decoration: black;    
-}
-
-.menu ul li a:hover{
-    font-weight: bolder;
-    color: blue;
-    text-decoration-color: blue;        
-    font-weight: bolder;
-    border-bottom: 3px solid blue;
-}
-
-.menu ul li a:visited{
-    font-weight: normal;
-    color:black;
-    text-decoration:black;
-    
-}
-
-.busca{
-    height: auto;
-    font-size: 15px;
-    margin-left: 0px; 
-    border: 1px solid gray;   
-}
-
-.div_capa{
-    margin-top: 40px; 
-    width: 100%;  
-}
-
-.capa{    
-    width: 100%;     
-}
-
-input{
+.bar_pesquisa{
     background-image: url(../img/search2.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right;   
 }
 
-footer{
-    text-align: center;
-    font-size: small;
+.capa{
+    width: 100%
+}
+
+.rodape{
+    font-size: 1rem;
     font-weight: bold;
     font-style: normal;
-}
-
-footer a{
-    text-align: center;
-    font-size: small;
     font-weight: bold;
-    font-style: none;
-    text-decoration: none;
-}
-
-/*curriculo.html*/
-
-.foto_cv{
-    display: flexbox;
-    float: left;  
-    position: relative;  
-    margin-top: 50px;
-    margin-right: 100px;
-    width: 50%;
-}
-
-.foto_cv img {
-    width: 300px;
-    align-content: left;
-}
-
-.nome_cv{
-    display: flexbox;
-    float: right; 
-    position: relative; 
-}
-
-.nome_cv h2 h3{
     text-align: center;
 }
