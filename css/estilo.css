@@ -11,6 +11,8 @@
 body{
     width: 100%;
     background-image: url("../img/back_laptop.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 
 header {
