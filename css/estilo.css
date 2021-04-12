@@ -10,9 +10,9 @@
 
 body{
     width: 100%;
-    background-image: url("../img/back_laptop.jpg");
+    background-image: url("../img/back_otimizado.jpg");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size:100%;
 }
 
 header {
