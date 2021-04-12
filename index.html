@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/estilo.css">
+    <script src="https://unpkg.com/blip-chat-widget" type="text/javascript">
+    </script>
     <title>Sérgio Mercês</title>
 </head>
 <body>
@@ -34,5 +36,17 @@
        <div>&copy; Todos os Direitos Reservados</div>
        <div>Desenvolvido por <a href="mailto:sergiomerces@outlook.com">Sérgio Mercês</a></div>
    </footer> 
+<script>
+    (function () {
+        window.onload = function () {
+            new BlipChat()
+            .withAppKey('c2JvdDI6MWM5ZjM3NmUtMmUyOS00ZWRiLWJhOTEtNWQ1ODMzODljYTg3')
+            .withButton({"color":"#2CC3D5","icon":""})
+            .withCustomCommonUrl('https://chat.blip.ai/')
+            .build();
+        }
+    })();
+</script>
+                                
 </body>
 </html>
