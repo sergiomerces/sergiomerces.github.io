@@ -69,13 +69,22 @@ h1.marca {
     padding-left: 10px;
 }
 
+.capa {
+    background-color: #0d142e;
+}
+
 .img-capa {
     width: 100%;
 }
 
 footer {
-   
+    color: white;
     text-align: center;
+    padding: 8px 0;
+}
+
+.rodape {
+    background-color: #0d142e;
 }
 
 #wrapper {
