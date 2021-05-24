@@ -3,49 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sérgio da Costa Mercês">
+    <meta name="Reply-To" content="sergio.merces@gmail.com">
+    <meta name="description" content="Bio, currículo e portfolio de Sérgio Mercês">
+    <meta name="keywords" content="frontend, desenvolvimento, dev, ti, programador">
     <link rel="stylesheet" href="./css/estilo.css">
-    <script src="https://unpkg.com/blip-chat-widget" type="text/javascript">
-    </script>
-    <title>Sérgio Mercês</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="./favicon_io/site.webmanifest">
+    <title>Portfolio Sérgio Mercês</title>
 </head>
 <body>
-   <header>
-        <div class="align-branding">
-            <img id="logo" src="./img/foto.jpg" alt="foto de Sérgio Mercês">
-            <span id="title">Sergio Merces</span>
+    <div id="wrapper">
+        <header>
+            <div>
+                <a class="branding" href="https://sergiomerces.github.io" target="_self">
+                    <img id="logo" src="./img/branding-pic.png" alt="Sérgio Mercês">
+                    <h1 class="marca">Sérgio Mercês</h1>
+                </a>
+            </div>
+            <div class="social">
+                <a href="sergio.merces#8260"><img class="icon-social" src="./img/icon_discord.png" alt="Discord"></a>
+                <a href="https://github.com/sergiomerces" target="_self"><img class="icon-social" src="./img/icon_github.png" alt="Github"></a>
+                <a href="https://www.linkedin.com/in/sergiomerces" target="_self"><img class="icon-social" src="./img/icon_linkedin.png" alt="LinkedIn"></a>
+                <a href="https://www.twitter.com/sergio_merces" target="_self"><img class="icon-social" src="./img/icon_twitter.png" alt="Twitter"></a>
+                <a href="https://t.me/sergiomerces" target="_self"><img class="icon-social" src="./img/icon_telegram.png" alt="Telegram"></a>
+                <a href="mailto:sergio.merces@gmail.com" target="_self"><img class="icon-social" src="./img/email.png" alt="E-Mail"></a>
+            </div>
+        </header>
+        <div>
+            <nav class="navbar">
+                <ul class="menu-principal">
+                    <li><a class="menu-principal-item" href="https://sergiomerces.github.io" target="_self">Home</a></li>
+                    <li><a class="menu-principal-item" href="#">Bio</a></li>
+                    <li><a class="menu-principal-item" href="#">Competências</a></li>
+                    <li><a class="menu-principal-item" href="#">Conquistas</a></li>
+                    <li><a class="menu-principal-item" href="#">Projetos</a></li>
+                    <li><a class="menu-principal-item" href="#">Artigos</a></li>
+                </ul>
+            </nav>
+            <div class="capa">
+                    <img src="./img/capa.png" alt="banner">
+            </div>
         </div>
-        <div id="social" class="align-branding">
-            <a href="https://www.linkedin.com/in/sergiomerces"><img src="./img/linkedin.png" alt="botão Linkedin" target="_blank"></a>
-            <a href="https://www.github.com/sergiomerces"><img class="align-social" src="./img/github.png" alt="botão Github" target="_blank"></a>
-            <a href="https://www.twitter.com/sergio_merces"><img class="align-social" src="./img/twitter.png" alt="botão Twitter" target="_blank"></a>
-            <a href="mailto:sergiomerces@utlook.com"><img class="align-social" src="./img/email.png" alt="botão E-mail" target="_blank"></a>
-        </div>
-   </header>
-   <nav>
-        <ul>
-            <li><a href="index.html" target="_self">Home</a></li>
-            <li><a href="" target="_self">Currículo</a></li>
-            <li><a href="" target="_self">Portfolio</a></li>
-            <li><a href="" target="_self">Blog</a></li>
-            <li><a href="" target="_self">Contato</a></li>
-        </ul>
-</nav>
-   <main></main>
-   <footer>
-       <div>&copy; Todos os Direitos Reservados</div>
-       <div>Desenvolvido por <a href="mailto:sergiomerces@outlook.com">Sérgio Mercês</a></div>
-   </footer> 
-   <script>
-       (function () {
-           window.onload = function () {
-               new BlipChat()
-               .withAppKey('c2JvdDI6MWM5ZjM3NmUtMmUyOS00ZWRiLWJhOTEtNWQ1ODMzODljYTg3')
-               .withButton({"color":"#2CC3D5","icon":"https://blipmediastore.blob.core.windows.net/public-medias/Media_48804518-892e-415e-9163-4cc47249cb70"})
-               .withCustomCommonUrl('https://chat.blip.ai/')
-               .build();
-           }
-       })();
-   </script>                              
+        <footer>Desenvolvido por Sérgio da Costa Mercês</footer>
+    </div>
 </body>
 </html>
