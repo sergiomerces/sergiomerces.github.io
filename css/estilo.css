@@ -80,7 +80,7 @@ h1.marca {
 .video {
     display: flex;
     background-color:  #0d142e;
-    padding-top: 40px;
+    padding: 40px 0;
     justify-content: center;
 }
 
@@ -92,6 +92,7 @@ footer {
 
 .rodape {
     background-color: #0d142e;
+    padding-bottom: 15px;
 }
 
 #wrapper {
