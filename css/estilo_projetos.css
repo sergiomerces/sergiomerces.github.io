@@ -1,0 +1,23 @@
+.projeto {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 40px;
+    justify-content: center;
+}
+
+.print {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.foto-print{
+    justify-content: center;
+}
+
+.texto {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: justify;
+}
