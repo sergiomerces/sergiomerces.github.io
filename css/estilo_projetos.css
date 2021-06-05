@@ -21,3 +21,12 @@
     padding-bottom: 40px;
     text-align: justify;
 }
+
+main {
+    background-color: silver;
+}
+
+h2, section {
+    padding-left: 40px;
+    padding-right: 40px;
+}
