@@ -1,3 +1,10 @@
+/*
+Folha de estilos do site
+Autor: Sérgio da Costa Mercês
+E-Mail: sergio.merces@gmail.com
+*/
+
+/*estilos gerais*/
 
 body {
     margin: 0;
@@ -99,5 +106,112 @@ footer {
     margin: 10px 30px;
 }
 
+/*estilos bio.html*/
 
+article {
+    display: flex;
+    width: 100%;
+}
 
+.info {
+    width: 50%;
+    background-color: rgb(221, 221, 57);
+}
+
+.info-item {
+    font-size: 23px;
+    list-style: none;
+    padding: 15px;
+}
+
+h2.bio {
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+}
+
+p.bio {
+    font-size: 20px;
+    text-align: justify;
+    padding-right: 30px;
+}
+
+/*estilos competencias.html*/
+
+.competencias {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(199, 194, 194);
+    padding-top: 40px;
+    justify-content: space-around;
+}
+
+p.skill {
+    text-align: center;
+}
+
+/*estilos conquistas.html*/
+
+.conquistas {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(136, 248, 132);
+    padding-top: 40px;
+    justify-content: space-around;
+}
+
+h2.bootcamp {
+    margin: 0;
+    padding-top: 30px;
+    padding-left: 40px;
+    background-color: rgb(136, 248, 132);
+}
+
+a.dio {
+    text-decoration: none;
+    color: black;
+}
+
+p.rotulos {
+    text-align: center;
+    font-weight: 600;
+}
+
+/*estilos projetados.html*/
+
+.projeto {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 40px;
+    justify-content: center;
+}
+
+.print {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.foto-print{
+    justify-content: center;
+}
+
+.texto {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: justify;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.background_projetos {
+    background-color: silver;
+}
+
+.margens_projeto {
+    padding-left: 40px;
+    padding-right: 40px;
+}
