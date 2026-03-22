@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-shadow: 1px 1px 2px #d3ceb3    ;
+}
+
+header > h1#branding {
+    font-size: 2.5rem;
+    color: #d9bc10;
+}
+
+nav .menu {
+    display: inline-flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav .menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: normal;
+    text-shadow: 1px 1px 2px #d3ceb3;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    width: 50vw;
+}
+
+.text h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #d9bc10;
+    text-shadow: 1px 1px 2px #a7a6a2;
+}
+
+.text > #title {
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 2px #a7a6a2;
+}
+
+.text p {
+    font-size: 1.1rem;
+    color: #ccc;
+}
+
+.image {
+    width: 50vw;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #111;
+    color: #777;
+    border: 1px solid #333;
+    border-radius: 18px;
+}
+
+
