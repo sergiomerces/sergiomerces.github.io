@@ -24,12 +24,16 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    text-shadow: 1px 1px 2px #d3ceb3    ;
+    text-shadow: 1px 1px 2px #d3ceb3;
 }
 
-header > h1#branding {
+header > a h1#branding {
     font-size: 2.8rem;
     color: #d9bc10;
+}
+
+header > a {
+    text-decoration: none;
 }
 
 nav .menu {
@@ -44,6 +48,18 @@ nav .menu li a {
     font-size: 1.25rem;
     font-weight: normal;
     text-shadow: 1px 1px 2px #d3ceb3;
+}
+
+nav .menu li a:hover {
+    background-color: #d9bc10;
+    color: #000;
+    line-height: 1.8;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 5px 15px;
+    border: 1px solid #000;
+    border-radius: 17px;
+    
 }
 
 .banner {
