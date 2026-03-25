@@ -79,6 +79,10 @@ nav .menu li a {
     margin-top: 100px;
 }
 
+.social-bar a {
+    text-decoration: none;
+}
+
 .social-icons {
     width: 2.5rem;
     margin-left: 6px;
