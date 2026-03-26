@@ -151,8 +151,8 @@ footer {
 
 /* ===== MEDIA QUERIES - RESPONSIVO ===== */
 
-/* Tablets (768px até 1024px) */
-@media screen and (max-width: 1024px) {
+/* Tablets (768px até 860px) */
+@media screen and (max-width: 860px) {
     main {
         max-width: 100%;
         padding: 15px;
