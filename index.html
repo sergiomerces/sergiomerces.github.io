@@ -1,62 +1,140 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sérgio Mercês  </title>
-  <link rel="shortcut icon" href="./assets/favicons/favicon.png" type="image/x-icon">
-  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-</head>
-<body>
-  <main>
-    <header>
-      <a href="./index.html" rel="internal" target="_self">
-      <h1 id="branding">Sérgio Mercês</h1>
-      </a>
-      <nav>
-        <ul class="menu">
-          <li><a href="./index.html" rel="internal" target="_self">Home</a></li>
-          <li><a href="#" rel="internal" target="_self">Sobre</a></li>
-          <li><a href="#" rel="internal" target="_self">Curriculo</a></li>
-          <li><a href="#" rel="internal" target="_self">Projetos</a></li>
-          <li><a href="#" rel="internal" target="_self">Blog</a></li>
-          <li><a href="#" rel="internal" target="_self">Contato</a></li>
-        </ul>
-      </nav>
-    </header>
-    <section class="banner">
-      <div class="text">
-        <h2>Bem-vindo!</h2>
-        <p id="title"></p>
-        <p>Graduando em Desenvolvimento Web pela Anhanguera, tenho interesse pela trilha front-end e escolhi a linguagem Javascript...</p>
-        <span class="social-bar">
-          <a href="https://www.linkedin.com/in/sergiodacostamerces/" target="_blank" rel="noopener noreferrer" title="Linkedin">
-            <img src="./assets/social/icon-linkedin.svg" alt="LinkedIn" class="social-icons">
-          </a>
-          <a href="https://github.com/sergiomerces/" target="_blank" rel="noopener noreferrer" title="Github">
-            <img src="./assets/social/icon-github.svg" alt="Github" class="social-icons">
-          </a>
-          <a href="https://www.facebook.com/eimercex/" target="_blank" rel="noopener noreferrer" title="Facebook">
-            <img src="./assets/social/icon-facebook.svg" alt="Facebook" class="social-icons">
-          </a>
-          <a href="https://www.instagram.com/eimercex" target="_blank" rel="noopener noreferrer" title="Instagram">
-            <img src="./assets/social/icon-instagram.svg" alt="Instagram" class="social-icons">
-          </a>
-          <a href="https://x.com/eimerces/" target="_blank" rel="noopener noreferrer" title="X">
-            <img src="./assets/social/icon-twitter.svg" alt="Twitter ou X" class="social-icons">
-          </a>
-          <a href="mailto:sergio.merces@gmail.com" target="_blank" rel="noopener noreferrer" title="E-mail">
-            <img src="./assets/social/icon-gmail.svg" alt="GMail" class="social-icons">
-          </a>
-        </span>
-      </div>
-      <div class="image">
-        <img src="./assets/img/foto-banner-600.webp" alt="Sérgio Mercês">
-      </div>
-    </section>
-    <footer>2026 &COPY; Sérgio Mercês. Todos os direitos reservados.</footer>
-  </main>
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-  <script src="./assets/js/script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Sergio Merces" />
+    <meta
+      name="description"
+      content="Site pessoal para networking, apresentação de portfolio, currículo e blog"
+    />
+    <meta
+      name="keywords"
+      content="Sergio Merces, Sérgio Mercês, Sérgio da Costa Mercês, Sergio da Costa Merces, desevolvimento web, web frontend, web front-end, web develpment, desenvolvimento web"
+    />
+    <meta name="reply-to" content="sergio.merces@gmail.com" />
+    <title>Sérgio Mercês</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/favicons/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <a href="./index.html" rel="internal" target="_self">
+          <h1 id="branding">Sérgio Mercês</h1>
+        </a>
+        <button class="hamburger-menu" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav>
+          <ul class="menu" id="navMenu">
+            <li>
+              <a href="./index.html" rel="internal" target="_self">Home</a>
+            </li>
+            <li><a href="#" rel="internal" target="_self">Sobre</a></li>
+            <li><a href="#" rel="internal" target="_self">Curriculo</a></li>
+            <li><a href="#" rel="internal" target="_self">Projetos</a></li>
+            <li><a href="#" rel="internal" target="_self">Blog</a></li>
+            <li><a href="#" rel="internal" target="_self">Contato</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="banner">
+        <div class="text">
+          <h2>Bem-vindo!</h2>
+          <p id="title"></p>
+          <p>
+            Graduando em Desenvolvimento Web pela Anhanguera, tenho interesse
+            pela trilha front-end e escolhi a linguagem Javascript...
+          </p>
+          <span class="social-bar">
+            <a
+              href="https://www.linkedin.com/in/sergiodacostamerces/"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Linkedin"
+            >
+              <img
+                src="./assets/social/icon-linkedin.svg"
+                alt="LinkedIn"
+                class="social-icons"
+              />
+            </a>
+            <a
+              href="https://github.com/sergiomerces/"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Github"
+            >
+              <img
+                src="./assets/social/icon-github.svg"
+                alt="Github"
+                class="social-icons"
+              />
+            </a>
+            <a
+              href="https://www.facebook.com/eimercex/"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Facebook"
+            >
+              <img
+                src="./assets/social/icon-facebook.svg"
+                alt="Facebook"
+                class="social-icons"
+              />
+            </a>
+            <a
+              href="https://www.instagram.com/eimercex"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Instagram"
+            >
+              <img
+                src="./assets/social/icon-instagram.svg"
+                alt="Instagram"
+                class="social-icons"
+              />
+            </a>
+            <a
+              href="https://x.com/eimerces/"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="X"
+            >
+              <img
+                src="./assets/social/icon-twitter.svg"
+                alt="Twitter ou X"
+                class="social-icons"
+              />
+            </a>
+            <a
+              href="mailto:sergio.merces@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="E-mail"
+            >
+              <img
+                src="./assets/social/icon-gmail.svg"
+                alt="GMail"
+                class="social-icons"
+              />
+            </a>
+          </span>
+        </div>
+        <div class="image">
+          <img src="./assets/img/foto-banner-600.webp" alt="Sérgio Mercês" />
+        </div>
+      </section>
+      <footer>2026 &COPY; Sérgio Mercês. Todos os direitos reservados.</footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
 </html>
