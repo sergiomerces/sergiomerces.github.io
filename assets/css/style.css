@@ -151,7 +151,7 @@ footer {
 
 /* ===== MEDIA QUERIES - RESPONSIVO ===== */
 
-/* Tablets (768px até 860px) */
+/* Tablets (768px até 860px) 
 @media screen and (max-width: 860px) {
     main {
         max-width: 100%;
@@ -209,7 +209,7 @@ footer {
     .social-icons {
         width: 2rem;
     }
-}
+} */
 
 /* Celulares (até 800px) - Ativa o hamburger menu */
 @media screen and (max-width: 800px) {
