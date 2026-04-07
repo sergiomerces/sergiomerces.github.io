@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+.social-bar {
+    display: block;
+    margin-top: 0.3125rem;
+    text-align: right;
+}
+
+.text {
+    width: 100vw;
+}
+
+.text p {
+    margin-top: 0.625rem;
+}
+
+.text a {
+    color: #d9bc10;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.img-sobre {
+    width: 22.5rem;
+    float: left;
+    margin-right: 1.875rem;
+    border: 1px solid #d3ceb3;
+    box-shadow: 1px 1px 3px #d3ceb3;
+    border-radius: 27px;
+}
+
+footer {
+    margin-top: 6.25rem;
+    align-items: end;
+}
