@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.875rem;
+}
+
+.picture {
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: 50%;
+    border: 1px solid #d3ceb3;
+    box-shadow: 1px 1px 3px #d3ceb3;
+}
+
+.name {
+    font-size: 2rem;
+    margin-top: 0.625rem;
+    color: #d9bc10;
+}
+
+.title {
+    font-size: 1.25rem;
+}
+
+.content {
+    display: flex;
+    gap: 1.25rem;
+    justify-content: space-between;
+}
+
+.box {
+    margin-top: 1.25rem;
+    border: 1px solid #d3ceb3;
+    box-shadow: 1px 1px 3px #d3ceb3;
+    border-radius: 27px;
+    padding: 1.875rem;
+}
+
+h2 {
+    color: #d9bc10;
+}
+
+.vertical-space {
+    margin-top: 1.875rem;
+}
+
+a {
+    color: #d9bc10;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.experience {
+    margin-bottom: 1.875rem;
+}
+
+footer {
+    margin-top: 2rem;
+    align-items: end;
+}
