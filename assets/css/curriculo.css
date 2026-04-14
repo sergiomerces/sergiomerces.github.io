@@ -41,6 +41,7 @@ header {
 
 h2 {
     color: #d9bc10;
+    margin-bottom: 0.3rem;
 }
 
 .vertical-space {
@@ -55,6 +56,11 @@ a {
 
 .experience {
     margin-bottom: 1.875rem;
+}
+
+.social-bar {
+    display: block;
+    margin-top: 0.5rem;
 }
 
 footer {
